@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva API Integration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #00C4CC;
+            border-bottom: 2px solid #00C4CC;
+            padding-bottom: 10px;
+        }
+        .status {
+            background-color: #e8f5e9;
+            border: 1px solid #4caf50;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Canva API Integration Hub</h1>
+    <p>Welcome to the Canva API Integration Hub. This application serves as the central point for managing and processing API requests between our system and Canva's powerful design platform.</p>
+    
+    <h2>Integration Status</h2>
+    <div class="status">
+        <p><strong>Status:</strong> Active</p>
+        <p><strong>Last Check:</strong> <span id="lastCheck"></span></p>
+    </div>
+    
+    <h2>Features</h2>
+    <ul>
+        <li>Seamless data synchronization with Canva</li>
+        <li>Real-time design updates</li>
+        <li>Automated workflow processing</li>
+        <li>Custom design template management</li>
+    </ul>
+    
+    <p>For technical support or inquiries, please contact our development team.</p>
+
+    <script>
+        document.getElementById('lastCheck').textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
